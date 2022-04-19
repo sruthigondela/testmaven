@@ -5,6 +5,7 @@
     <classes>
       <class name="testcases.LoginPageTests"/>
 	  <class name="testcases.SearchPageTests"/>
+	  <class name="testcases.CartPageTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

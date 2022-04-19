@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34" started-at="2022-04-19T16:09:35 IST" finished-at="2022-04-19T16:09:35 IST">
+  <suite name="Suite" duration-ms="33" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34" started-at="2022-04-19T16:09:35 IST" finished-at="2022-04-19T16:09:35 IST">
+    <test name="Test" duration-ms="33" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
+      <class name="testcases.CartPageTests">
+        <test-method status="PASS" signature="verifyCart()[pri:0, instance:testcases.CartPageTests@10bdf5e5]" name="verifyCart" duration-ms="0" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCart -->
+      </class> <!-- testcases.CartPageTests -->
       <class name="testcases.LoginPageTests">
-        <test-method status="PASS" signature="verifyLoginWithInValidCred()[pri:0, instance:testcases.LoginPageTests@4bec1f0c]" name="verifyLoginWithInValidCred" duration-ms="3" started-at="2022-04-19T16:09:35 IST" finished-at="2022-04-19T16:09:35 IST">
+        <test-method status="PASS" signature="verifyLoginWithInValidCred()[pri:0, instance:testcases.LoginPageTests@29ca901e]" name="verifyLoginWithInValidCred" duration-ms="4" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInValidCred -->
-        <test-method status="PASS" signature="verifyLoginWithValidCred()[pri:0, instance:testcases.LoginPageTests@4bec1f0c]" name="verifyLoginWithValidCred" duration-ms="0" started-at="2022-04-19T16:09:35 IST" finished-at="2022-04-19T16:09:35 IST">
+        <test-method status="PASS" signature="verifyLoginWithValidCred()[pri:0, instance:testcases.LoginPageTests@29ca901e]" name="verifyLoginWithValidCred" duration-ms="0" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCred -->
       </class> <!-- testcases.LoginPageTests -->
       <class name="testcases.SearchPageTests">
-        <test-method status="PASS" signature="verifySearch()[pri:0, instance:testcases.SearchPageTests@148080bb]" name="verifySearch" duration-ms="0" started-at="2022-04-19T16:09:35 IST" finished-at="2022-04-19T16:09:35 IST">
+        <test-method status="PASS" signature="verifySearch()[pri:0, instance:testcases.SearchPageTests@dc24521]" name="verifySearch" duration-ms="0" started-at="2022-04-19T16:11:57 IST" finished-at="2022-04-19T16:11:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearch -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.613" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.489" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058\surefirebooter2253590569310052280.jar C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058 2022-04-19T16-09-34_300-jvmRun1 surefire4722705341127960222tmp surefire_06536701006239049617tmp"/>
+    <property name="sun.java.command" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire2420789335855476418\surefirebooter5599893531084891847.jar C:\Users\SRUTHI\AppData\Local\Temp\surefire2420789335855476418 2022-04-19T16-11-56_737-jvmRun1 surefire8279219837830244899tmp surefire_05206406244981646045tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\SRUTHI\eclipse-workspace\testmaven\target\test-classes;C:\Users\SRUTHI\eclipse-workspace\testmaven\target\classes;C:\Users\SRUTHI\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\SRUTHI\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\SRUTHI\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\SRUTHI\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\SRUTHI\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\SRUTHI"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058\surefirebooter2253590569310052280.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire2420789335855476418\surefirebooter5599893531084891847.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,4 +63,5 @@
   <testcase name="verifyLoginWithInValidCred" classname="testcases.LoginPageTests" time="0.004"/>
   <testcase name="verifyLoginWithValidCred" classname="testcases.LoginPageTests" time="0"/>
   <testcase name="verifySearch" classname="testcases.SearchPageTests" time="0"/>
+  <testcase name="verifyCart" classname="testcases.CartPageTests" time="0"/>
 </testsuite>
