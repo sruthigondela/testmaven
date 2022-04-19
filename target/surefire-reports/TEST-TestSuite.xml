@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.578" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="0.613" tests="3" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="15"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\SRUTHI\eclipse-workspace\testmaven\target\test-classes;C:\Users\SRUTHI\eclipse-workspace\testmaven\target\classes;C:\Users\SRUTHI\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\SRUTHI\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\SRUTHI\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\SRUTHI\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\SRUTHI\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="15"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire1183738472606025066\surefirebooter3192083685572474307.jar C:\Users\SRUTHI\AppData\Local\Temp\surefire1183738472606025066 2022-04-19T12-40-42_754-jvmRun1 surefire18333730647693418391tmp surefire_03862289300209728851tmp"/>
-    <property name="jdk.debug" value="release"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058\surefirebooter2253590569310052280.jar C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058 2022-04-19T16-09-34_300-jvmRun1 surefire4722705341127960222tmp surefire_06536701006239049617tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\SRUTHI\eclipse-workspace\testmaven\target\test-classes;C:\Users\SRUTHI\eclipse-workspace\testmaven\target\classes;C:\Users\SRUTHI\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\SRUTHI\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\SRUTHI\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\SRUTHI\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\SRUTHI\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\SRUTHI\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\SRUTHI"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2020-10-20"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
-    <property name="file.separator" value="\"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
     <property name="basedir" value="C:\Users\SRUTHI\eclipse-workspace\testmaven"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire1183738472606025066\surefirebooter3192083685572474307.jar"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SRUTHI\AppData\Local\Temp\surefire7272444706362871058\surefirebooter2253590569310052280.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
     <property name="user.name" value="SRUTHI"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\SRUTHI\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\SRUTHI\AppData\Local\Temp\"/>
-    <property name="java.version" value="15.0.1"/>
+    <property name="java.version" value="1.8.0_321"/>
     <property name="user.dir" value="C:\Users\SRUTHI\eclipse-workspace\testmaven"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\apache-maven-3.8.5\bin;C:\apache-maven-3.8.5\lib;C:\Users\SRUTHI\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\SRUTHI\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\SRUTHI\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\apache-maven-3.8.5\bin;C:\apache-maven-3.8.5\lib;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Users\SRUTHI\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="59.0"/>
+    <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="verifyLoginWithInValidCred" classname="testcases.LoginPageTests" time="0.004"/>
-  <testcase name="verifyLoginWithValidCred" classname="testcases.LoginPageTests" time="0.001"/>
+  <testcase name="verifyLoginWithValidCred" classname="testcases.LoginPageTests" time="0"/>
   <testcase name="verifySearch" classname="testcases.SearchPageTests" time="0"/>
 </testsuite>
